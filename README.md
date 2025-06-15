@@ -19,9 +19,6 @@ For 1,000,000 iterations with hand `[Ace♠, King♠]`:
 - MultiThread and VirtualThread are **~5.7x faster** than SingleThread.  
 - VirtualThreads use **more memory** but simplify concurrency code.  
 
-## 🚀 How to Run  
-1. **Requirements**: JDK 21+ (for VirtualThreads)  
-2. **Build & Run**:  
-   ```bash
+
    ./mvnw clean package   # if using Maven
    java -jar target/poker-simulator.jar
